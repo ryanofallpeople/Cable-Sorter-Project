@@ -1,0 +1,44 @@
+User
+Convert the following two part chatGPT prompt into an generalized interactive prompt that provides enough context for chatGPT to know which questions to ask to eventually generate the requirements.md
+
+Remove all references to tools like NodeJS, and replace, "the cataloging of cables" with "a simple api for cataloging physical objects"
+
+The goal is to make it easy to interactively create a requirements.md for any given project i might be working on.
+
+Ask 5 questions or less but include these two questions at the top of this list:
+
+Ask about what language they are most comfortable in
+Ask what they might be cataloging
+
+
+
+
+
+
+
+
+
+
+
+
+reformat the previous output into a `gpt_requirements_generator.md` code block.
+
+make sure the actual prompt that is intended to be copied into chat gpt is seperated from the rest of the overview in the .md fille with a line seperator.
+
+Remove the checkboxes and choose a different format for those
+
+Create an unformatted code block for the user to input their answers to be pasted into chatGPT. Make sure that chat gpt knows it will be a multi step interactive prompt.
+
+
+
+
+
+Append this to the beginning of that
+
+Welcome to the Interactive Requirements Generator!
+
+This tool will help us define the requirements for your project. To get started, please answer a few questions:
+
+Append this to the end:
+
+Once you've provided your responses, we'll generate a requirements.md document tailored to your project's needs. Let's get started!

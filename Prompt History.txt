@@ -1,0 +1,45 @@
+Prompt: 1
+
+Create an outline for a webapp api designed to catalog various cables to be searchable later.
+
+Use Node JS, and a JSON database to create the API
+
+Show off this as 
+
+Each cable will have the following attributes: 
+SIDE A Connector
+SIDE A GENDER
+SIDE B Connector
+SIDE B GENDER
+Length
+Data or Power only
+Balanced / Unbalanced Audio Chords
+Location in the form of a box number
+
+
+Create an outline in markdown syntax for me to reference later
+
+
+
+Ignore Git and version control for now and assume it will be running on a client machine.
+
+Be concise especially when explaining the API endpoints.
+
+Add a bit at the end talking about how the api could be connected to an existing front end template.
+
+Change the bit talking about the front end to imply that the next step would be you can use a simple existing html, css, and js template as a starting point for creating the front end of the application.
+
+
+
+[Unformatted chatGPT Response]
+
+
+
+Prompt 2:
+Put that entirety of that last output inside of a single "requirements.md" code block, including the information about the endpoints.
+
+
+
+reformat the previous output into a `gpt_requirements_generator.md` code block.
+
+make sure the actual prompt that is intended to be copied into chat gpt is seperated from the rest of the overview in the .md fille with a line seperator.
